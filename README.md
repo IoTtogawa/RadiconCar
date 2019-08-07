@@ -31,7 +31,7 @@
 
 
 機能②: juliusを用いた音声認識による操作
-	※ディレクトリRadiconCarとRadiconCar2は途中まで．RadiconCar3が完成版です．
+	※参考サイト: https://qiita.com/mooriii/items/6a16663ce9a80b2e2b92，但し，denki.phoneを作るときのコンパイルコマンドの"| yomi2.voca |" の部分は"| /home/pi/julius-kits/grammar-kit-4.3.1/bin/linux/yomi2voca.pl|"に変更してください．
 	※GPIOピン番号が正しいかどうか，/home/pi/RadiconCar3/rc.py を開いて事前に確認しておく．
 	※サーバー側とクライアント側で計二つウィンドウを立ち上げてそれぞれでログインしておく．
 	※サーバー側，クライアント側のどちらかで，$ sudo pigpiod を実行しておく．
